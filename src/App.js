@@ -1,6 +1,8 @@
 import React from 'react';
 import Header from './componentes/Header';
 import styled from 'styled-components';
+import Pesquisa from './componentes/Pesquisa';
+import UltimosLancamentos from './componentes/UltimosLancamentos';
 
 const AppContainer = styled.div`
     
@@ -22,8 +24,8 @@ function App() {
   return (
     <AppContainer>
       <Header/>
-      { /*<Button>Teste</Button>
-        <ButtonMod>Teste 2</ButtonMod>*/ }
+      <Pesquisa/>
+      <UltimosLancamentos/>
     </AppContainer>
   );
 }
